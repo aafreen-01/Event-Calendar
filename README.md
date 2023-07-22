@@ -1,4 +1,4 @@
-Festival Calendar with Business promotions
+Festival/Event Calendar with Business promotions
 
 •	Developed a web-based calendar application that provides users with the ability to schedule and organize their activities, post events and festivals on the calendar, and view upcoming events and festivals along with their description.
 
