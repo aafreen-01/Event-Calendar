@@ -1,4 +1,4 @@
-Festival/Event Calendar with Business promotions
+# Festival/Event Calendar with Business promotions
 
 •	Developed a web-based calendar application that provides users with the ability to schedule and organize their activities, post events and festivals on the calendar, and view upcoming events and festivals along with their description.
 
@@ -9,4 +9,4 @@ Festival/Event Calendar with Business promotions
 •	The application is tested and optimized for various devices and platforms to ensure accessibility and usability for all potential users.
 
 
-To view the results, click on https://aafreen-01.github.io/Event-Calendar/
+# To view the results , [CLICK HERE](https://aafreen-01.github.io/Event-Calendar/)
