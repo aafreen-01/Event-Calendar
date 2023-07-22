@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+    transition: all 0.2s;
+  }
+  body{
+    background-color: #000;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    /* z-index: 5;   */
+    backdrop-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .main-row {
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    border-bottom: 1px solid #c9bfbf;
+  }
+  .flex-box {
+    display: flex;
+  }
+  .perfect-center {
+    justify-content: center;
+    align-items: center;
+  }
+  .main-nav,
+  .end-col {
+    align-items: center;
+  }
+  .main-nav {
+    width: 30%;
+    justify-content: space-between;
+  }
+  .main-nav a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 6px;
+  }
+  .end-col {
+    justify-content: end;
+    width: 70%;
+  }
+  .btn,
+  .modal-close-btn {
+    padding: 10px 18px;
+    margin: 2px 10px;
+    background-color: #8e3bdb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #702ead;
+  }
+  .hidden {
+    display: none;
+  }
+  .main-wrap {
+    height: 360px;
+    width: 400px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+  }
+  .modal-close-btn {
+    position: inherit;
+    top: 5px;
+    right: 5px;
+    padding: 1px 4px;
+    margin: 0;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 246, 246);
+    height: 100vh;
+    width:100%;
+}
+.main-wrap .outer-wrap{
+    width:315px;
+    height:460px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:
+        0 2.8px 2.2px rgba(116, 114, 114, 0.034),
+        0 6.7px 5.3px rgba(116, 114, 114, 0.034),
+        0 10.5px 8px rgba(116, 114, 114, 0.034),
+        0 20.3px 15.9px rgba(116, 114, 114, 0.034),
+        0 21.8px 18.4px rgba(116, 114, 114, 0.034),
+        0 10px 90px rgba(136, 134, 134, 0.034)
+        ;
+    text-align: center;
+    padding: 50px 40px;
+}
+h1{
+    font-size: 28px;
+}
+hr{
+    width:40px;
+    background-color: #5730c5;
+    margin: auto;
+    margin-top: 4px;
+    height: 4px;
+}
+.social-login{
+    margin-top:5px;
+}
+.social-login a{
+    width:30px;
+    height:30px;
+    border-radius: 40px;
+    border: 1px solid #dfdede;
+    margin:10px;
+    text-decoration: none;
+    padding: 6px;
+    display: inline-block;
+}
+.social-login a img{
+    width:15px;
+    height:15px;
+}
+p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.form{
+    text-align: left;
+}
+.form label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.form input{
+    width: 100%;
+    height: 34px;
+    border: 1px solid #dbd8d8;
+    border-radius: 8px;
+    padding-left:6px;
+    margin:8px 0px;
+}
+.form input:focus{
+    border: 1px solid #cac8c8;
+    outline: none;
+    background: #faf9f9;
+}
+.form input::placeholder{
+    color: #c4c2c2;
+}
+.form input[type="checkbox"]{
+    height: 11px;
+    width: 11px;
+    background-color: #b9b8b8;
+}
+.rm-me{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.fg-pa{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    margin-left:20px;
+}
+.fg-pa:hover{
+    border-bottom: 2px solid #802ddf;
+}
+.btn{
+    height:36px;
+    width:100%;
+    border-radius: 20px;
+    background: linear-gradient(to right,#ec8efd, #6024ce);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.terms{
+    width: 100%;
+    margin-top: 14px;
+    text-align: left;
+}
+.terms a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    font-size: 12px;
+}
+.terms a:last-of-type{
+    margin-left: 32px;
+}
+.terms a:hover{
+    border-bottom: 2px solid #802ddf;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="signup.css">        <!--Add your CSS file link-->
+        <meta property="og:url"
+        content="https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Calendar_icon_%282020%29.svg" />
+      <meta property="og:image" content="Cal.png">
+      <meta property="og:title" content="Create Your Schedule Your Event" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description"
+        content="Stay organized with our user-friendly Calendar featuring events, reminders, and a customizable interface. Built with HTML, CSS, and JavaScript. Start scheduling today!" />
+      <meta name="keywords" content="calendar, events, reminders, javascript, html, css, Souvik Maiti" />
+      <link rel="shortcut icon" type="image/png" href="Calendario.png" />
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-1zRM0jTfYPGJX9YuhpwTNQsh+L/0J0sLs1s/HzfPhaTnTjouCKrZ9MDAm/k12djzy2xKx8VKDOePHh1i+KqxlQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="nav.css">
+      <script src="nav.js"></script>    
+      <script src="script.js"></script>
+    </head>
+    <body>
+          <!------------------------------------NAVBAR------------------------------------->
+<nav>
+    <div class="logo"><a href="#">Calendario</a></div>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="offers.html"><i class="fa-solid fa-scroll fa-flip"></i>Offers</a></li>
+        <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        <li><a href="#"><i class="fa fa-info"></i>About</a></li>
+        <li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Dark mode -->
+  
+       <div class="main-wrap">
+           <div class="form-wrap">
+               <h1>SIGN <span>UP</span></h1>
+               <h6>Welcome to Calendario</h6>
+               <form class="form">
+                <label for="cars" style="color: white;">Choose Your Category:</label>
+                    <select id="cars">
+                      <option value="volvo">Normal User</option>
+                      <option value="volvo">Business Person</option>
+                    </select>
+                  </br>
+                  <input type="name" name="name" id="name" placeholder="Name">
+                    </br>
+                   <input type="email" name="email" id="email" placeholder="Email">
+                    </br>
+                    
+                   <input type="password" name="pass" id="pass" placeholder="Password">
+                    </br>
+                   <input type="password" name="cpass" id="cpass" placeholder="Confirm Password">
+                    </br>
+                   <button type="submit" class="form-btn">SIGN UP</button>
+                   <button type="submit" class="form-btn"  ><a href="index.html">Login</a></button>
+               </form>
+               <span class="sign-up-with">Or sign up with</span>
+               <div class="social-logo">
+                    <a href="#" title="Facebook">
+                        <img src="images/fb.png" alt="Facebook">
+                    </a>
+                    <a href="#" title="Google">
+                        <img src="images/google.png" alt="Google">
+                    </a>
+                    <a href="#" title="Twitter">
+                        <img src="images/twitter.png" alt="Twitter">
+                    </a>
+               </div>
+           </div>
+       </div>
+    </body>
+</html>
