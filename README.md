@@ -7,3 +7,6 @@ Festival/Event Calendar with Business promotions
 •	The application is user-friendly and intuitive, with a seamless integration with other software and platforms.
 
 •	The application is tested and optimized for various devices and platforms to ensure accessibility and usability for all potential users.
+
+
+To view the results, click on https://aafreen-01.github.io/Event-Calendar/
